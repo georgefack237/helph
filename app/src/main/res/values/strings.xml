@@ -1,6 +1,3 @@
 <resources>
     <string name="app_name">helps</string>
-    <string name="get_access_to_medications_and_drugs">Get medications</string>
-    <string name="onboarding1_desc">Get access to you medication from every side of the world</string>
-    <string name="onboarding_screen_one">On boarding one</string>
 </resources>
