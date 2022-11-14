@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">helps</string>
+    <string name="app_name">Helph</string>
+    <string name="ob1_title">Get access to medications and drugs</string>
+    <string name="ob1_description">You are provided with all pharmacies which contain your drugs.</string>
+    <string name="ob2_title">Easily navigation to pharmacies</string>
+    <string name="ob2_description">Navigation to specific nearby pharmacies made easy with google maps.</string>
+    <string name="ob3_title">Alarm reminder</string>
+    <string name="ob3_description">Get notified when to take your drugs with alarm notifications.</string>
+
 </resources>

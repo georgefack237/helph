@@ -7,6 +7,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.ViewPager
+
 import com.health13.helps.R
 import com.health13.helps.presentation.adapters.ViewPagerAdapter
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
@@ -34,26 +35,25 @@ class OnBoardingActivity : AppCompatActivity() {
 
 
 
-        previousPage.setOnClickListener {
+        previousPage.setOnClickListener{
             movePreviousTopSlideShow()
         }
 
 
         nextPageBtn.setOnClickListener {
-            moveNextTopSlideShow(it)
+            if(viewPager.currentItem == 2){
+                nextPageBtn.text = "Go"
+            }else{
+                moveNextTopSlideShow(it)
+            }
         }
     }
 
-    private fun moveNextTopSlideShow(view: View) {
-        if (viewPager.currentItem == viewPager.childCount) {
 
-            if (viewPager.childCount > 0) {
-                viewPager.setCurrentItem(0, true)
-            }
-        } else {
-            //it doesn't matter if you're already in the last item
+    private fun moveNextTopSlideShow(view: View) {
             viewPager.setCurrentItem(viewPager.currentItem + 1, true)
-        }
+
+
     }
 
 

@@ -2,9 +2,9 @@
 <resources>
     <color name="purple_200">#FFFF91A4</color>
     <color name="purple_500">#FF38D5CA</color>
-    <color name="purple_700">#FF38D5CA</color>
-    <color name="teal_200">#FF38D5CA</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="purple_700">#FF2C2C2B</color>
+    <color name="teal_200">#FF2C2C2B</color>
+    <color name="teal_700">#FF2C2C2B</color>
     <color name="accent">#FFF8D9AA</color>
     <color name="black">#FF2C2C2B</color>
     <color name="accent_opauque">#4DFF91A4</color>
